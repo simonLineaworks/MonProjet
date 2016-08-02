@@ -1,0 +1,74 @@
+reate a GitHub account.
+
+Then Initialisation of Git Bash
+
+git config --global user.name "name"
+git config --global user.email "email"
+
+To check your information,
+git config user.name
+git congig user.email
+
+then, write:
+git init
+
+To create your main folder,
+mkdir ~/MyProject
+
+Go inside,
+cd ~/MyProject
+git init
+
+To create a new file in this folder,
+touch test.txt
+git add test.txt
+git commit -m "information about what you did"
+
+To check all past commit,
+git log
+
+To send to your GitHub,
+git remote add origin https://.....
+git remote -v
+git push
+
+To receive the new modifications from GitHub to Git,
+git pull
+
+To check if all the new modification are OK,
+git status
+
+To use Git text-editor,
+vim test.txt
+To save and quit this editor,
+esc  :wq
+
+Then you have to do,
+git add test.txt
+git commit -m "new modification"
+
+Then send,
+git push
+
+To copy something from GitHub,
+git clone https://...
+
+To create and work on a new branch (not the main one),
+
+git branch name_of_the_branch
+git checkout name_of_the_branch
+
+Then you go back to the main (master),
+git checkout master
+
+Then you merge the main and name_of_the_branch,
+git merge name_of_the_branch
+
+Then you send it on GitHub,
+git push
+
+
+
+
+
+
