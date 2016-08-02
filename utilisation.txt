@@ -1,4 +1,4 @@
-reate a GitHub account.
+Create a GitHub account.
 
 Then Initialisation of Git Bash
 
