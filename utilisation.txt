@@ -26,6 +26,8 @@ git commit -m "information about what you did"
 
 To check all past commit,
 git log
+or
+git log --graph --oneline --decorate
 
 To send to your GitHub,
 git remote add origin https://.....
