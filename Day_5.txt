@@ -1,3 +1,18 @@
+Jour 5
+
+Utilisation des Customs post et fields.
+Php
+Html
+CSS
+
+
+
+
+
+
+
+
+Exemple de code servant a afficher les customs post et fields:
 
 page_movie.php
 
