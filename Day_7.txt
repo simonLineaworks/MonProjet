@@ -1,0 +1,56 @@
+Day 7:
+
+Today, i have to put the pagination>  next - prev
+
+
+php:
+
+$paged = get_query_var('paged') ? get_query_var('paged') : 1;
+			
+			$mymovies = new WP_QUERY(array(
+				'post_type' => 'my_movies',
+				'posts_per_page' => 6,
+				'paged' => $paged,
+
+			));
+			
+	...
+	
+	<?php endwhile; ?>
+
+					<div class="pagenav">
+				        <P><?php previous_posts_link( '< Prev', $mymovies->max_num_pages) ?>
+				        &nbsp;
+				        <?php next_posts_link( 'Next >', $mymovies->max_num_pages) ?>
+				        </p>
+	
+	
+	
+				        
+	css:
+	
+	.pagenav{
+	
+	background-image: url(images/shield.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: 42%;
+
+	width: auto;
+	margin: auto;
+	
+	text-align: center;
+	font-style: italic;
+	
+	position: relative;
+	
+	
+	And the shadow of the thumbnails in css:
+	
+	box-shadow:
+	0px 4px 4px 0px rgba(0, 0, 0, 0.5),
+	0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset; 
+	
+	
+	
+	
