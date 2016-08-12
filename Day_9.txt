@@ -41,6 +41,13 @@ then creating ad-files:
   
   W3C =  faire valider son code
   
+  Probleme de recuperation de l'affichage du panneau de recup des thumbnails
+  voir avec functions.php
+  ajout de lignes de codes mais bug.
+  probleme lors de preview.
+  
+  ok avec un autre theme.
+  
   
 
   
