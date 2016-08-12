@@ -22,5 +22,25 @@ then creating ad-files:
   
   Nice tutorial: 
     http://www.fran6art.com/wordpress/creez-votre-theme-wordpress-de-a-a-z/
+    
+    
+  Memo:
+  postmetadata = Informations sous les titres
+  the_time('j F Y') = affichage de la date
+  comments_popup_link() = affichage des commentaires
+  edit_post_link() = editer
+  get_calendar() = Calendrier
+  wp_list_cats() = Categorie
+  'title_li = <h2>Pages</h2>'    =  Afficher une liste dans une liste pour qu'elle ai la meme forme
+  wp_get_archives('type=monthly')  = Archives par mois
+  
+  Blogroll  =  Autres sites "Amis"
+  Meta   =   pour se logger
+  register_sidebar(2)   =  nombre de colonne sidebar. Ici 2
+  dynamic_sidebar()   =  gerer la sidebar par widget
+  
+  W3C =  faire valider son code
+  
+  
 
   
