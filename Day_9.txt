@@ -1,0 +1,26 @@
+Day 9:
+
+Create a theme for wordpress
+
+5 main files:
+
+  - index.php
+  - header.php
+  - footer.php
+  - sidebar.php
+  
+  -style.css
+  
+then creating ad-files:
+  - page.php
+  - single.php
+  - comments.php
+  - archive.php
+  - search.php
+  - searchform.php
+  - functions.php
+  
+  Nice tutorial: 
+    http://www.fran6art.com/wordpress/creez-votre-theme-wordpress-de-a-a-z/
+
+  
