@@ -1,0 +1,16 @@
+Day 11
+
+Learning new stuff:
+
+  - Bootstrap
+    dossier a copier dans le theme et a importer dans la page
+    mise en forme du content de la page en colonne etc...
+    possibilite button et autre import
+    
+  - Scss/Sass/Compass 
+    installation avec Ruby
+      command compass watch pour lancer la compillation du fichier scss en css
+    lier un scss avec css pour modifier plus facilement avec variable et autre. $color ...
+    
+  
+      
