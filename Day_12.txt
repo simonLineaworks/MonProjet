@@ -1,0 +1,24 @@
+Bilan jour 12:
+
+image responsive
+  <img class=img-responsive src="images/ver.png">
+
+texte responsive
+  @media screen and (max-width: 568px) {
+    h2{
+      font-size: 1em;
+      font-weight: bold;
+    }
+    p{
+    font-style: oblique;
+    color: $my_text;
+    font-size: 0.8em;
+    }
+  }
+  
+image bouton
+  <img class=img-responsive src="images/apple-top.png" data-toggle="collapse" data-target="#demo">
+ou
+  <a href= "https://google.fr" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-phone"></span> Google france
+  </a>
