@@ -1,0 +1,90 @@
+@import "compass";
+@import "compass/reset";
+$my_color: #E14646;
+$my_text: #287799;
+$my_background: #76B21A;
+$my_post_background: #FFFFFF;
+
+.entete{
+  .img-responsive{ 
+  width: 100%;
+  max-height: 200px;
+  }
+}
+
+.content{
+  background-color: $my_background;
+}
+
+.row{
+  /*border: solid blue 3px;*/
+  /*margin-bottom: 10px;*/
+
+
+.col-lg-3{
+  border: solid  $my_background 3px;
+  padding: 15px;
+  background-color: $my_post_background;
+  border-radius: 30px;
+  
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+
+  &:hover{
+    
+    opacity: 0.6;
+  }
+  p{
+    font-style: oblique;
+    color: $my_text;
+  }
+  
+  @media screen and (max-width: 568px) {
+    h2{
+      font-size: 1em;
+      font-weight: bold;
+    }
+    p{
+    font-style: oblique;
+    color: $my_text;
+    font-size: 0.8em;
+    }
+  }
+}
+}
+.image_ver{
+  position: fixed;
+  left: 200px;
+}
+
+.col-lg-12{
+  .img-responsive{
+    width: 50%; 
+    /*transition: all 2s;*/
+    &:hover{
+    /*transform: rotate(1080deg);*/
+    /*transform: scale(2,0.1);*/
+    /*transform: translate(-100px);*/
+    } 
+  }
+}
+footer{
+  background-color:$my_background;
+  text-align: center;
+  p{
+    .img-responsive{
+    
+      margin-left: 16%;
+      width: 8%;
+      transition: all 10s;
+      &:hover{
+        transform: rotate(720deg);
+        
+      }
+      
+    }
+  }
+}
+
+
