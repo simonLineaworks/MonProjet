@@ -23,3 +23,7 @@ function bygga_bootstrap_scripts()
         wp_enqueue_script('bootstrapjs');
     }
 
+
+utiliser ce tuto pour creer un theme perso
+
+http://www.fran6art.com/tutoriels/creation-theme-wordpress-tutorial-6-le-header/
