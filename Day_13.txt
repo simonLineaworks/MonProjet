@@ -27,3 +27,6 @@ function bygga_bootstrap_scripts()
 utiliser ce tuto pour creer un theme perso
 
 http://www.fran6art.com/tutoriels/creation-theme-wordpress-tutorial-6-le-header/
+
+
+Reprise de mon ancien theme perso et reduction du code
