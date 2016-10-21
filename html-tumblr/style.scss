@@ -418,16 +418,15 @@ footer{
 		transform: translate(-50%,-50%);
 
 		@media (max-width: 500px) {
-			top: 15%;
-		    text-align: center;
-		    transform: scale(0.7);
-		    left: 0;	
+			
+		    text-align: center;    	
 		}
 
 		@media (max-width: 400px) {	
-			transform: scale(0.6);
-			top: 10%;
-    		left: -50px;	
+				
+		}
+		img{
+			width: 80%;
 		}
 	}
 }
@@ -436,7 +435,7 @@ footer{
 
 	position: relative;
 
-	@media (max-width: 500px) {
+	@media (max-width: 600px) {
 		display: none;
 	}
 		
@@ -445,7 +444,7 @@ footer{
 		width: 100%;
 		min-height: 600px;
 
-		@media (max-width: 500px) {
+		@media (max-width: 600px) {
 			display: none;
 		}
 	}
@@ -455,7 +454,7 @@ footer{
 
 	width:100%;
 
-	@media (min-width: 500px) {
+	@media (min-width: 600px) {
 		display: none;
 	}
 }
@@ -1260,9 +1259,10 @@ footer{
 
 				//height: 380px;
 				margin: 10px;
+				padding-bottom:10px;
 
 				@media (max-width: 770px) {
-					height: 400px;
+					//height: 400px;
 				}
 
 				border: solid #ececec 1px;

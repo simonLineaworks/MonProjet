@@ -408,135 +408,128 @@ footer .copyright p {
 @media (max-width: 500px) {
   /* line 413, style.scss */
   .mv h2 {
-    top: 15%;
     text-align: center;
-    transform: scale(0.7);
-    left: 0;
   }
 }
-@media (max-width: 400px) {
-  /* line 413, style.scss */
-  .mv h2 {
-    transform: scale(0.6);
-    top: 10%;
-    left: -50px;
-  }
+/* line 428, style.scss */
+.mv h2 img {
+  width: 80%;
 }
 
-/* line 435, style.scss */
+/* line 434, style.scss */
 .head-slider {
   position: relative;
 }
-@media (max-width: 500px) {
-  /* line 435, style.scss */
+@media (max-width: 600px) {
+  /* line 434, style.scss */
   .head-slider {
     display: none;
   }
 }
-/* line 443, style.scss */
+/* line 442, style.scss */
 .head-slider .background-image {
   width: 100%;
   min-height: 600px;
 }
-@media (max-width: 500px) {
-  /* line 443, style.scss */
+@media (max-width: 600px) {
+  /* line 442, style.scss */
   .head-slider .background-image {
     display: none;
   }
 }
 
-/* line 454, style.scss */
+/* line 453, style.scss */
 .head-image-sm {
   width: 100%;
 }
-@media (min-width: 500px) {
-  /* line 454, style.scss */
+@media (min-width: 600px) {
+  /* line 453, style.scss */
   .head-image-sm {
     display: none;
   }
 }
 
-/* line 463, style.scss */
+/* line 462, style.scss */
 .tea-stand-circle {
   position: absolute;
   margin-top: -225px;
   right: 25px;
 }
 @media (max-width: 500px) {
-  /* line 463, style.scss */
+  /* line 462, style.scss */
   .tea-stand-circle {
     transform: scale(0.8);
     margin-top: -175px;
   }
 }
 @media (max-width: 400px) {
-  /* line 463, style.scss */
+  /* line 462, style.scss */
   .tea-stand-circle {
     transform: scale(0.7);
     right: 12px;
   }
 }
 
-/* line 480, style.scss */
+/* line 479, style.scss */
 .tea-stand {
   position: absolute;
   margin-top: -125px;
   right: 100px;
 }
 @media (max-width: 500px) {
-  /* line 480, style.scss */
+  /* line 479, style.scss */
   .tea-stand {
     transform: scale(0.8);
     margin-top: -100px;
   }
 }
 @media (max-width: 400px) {
-  /* line 480, style.scss */
+  /* line 479, style.scss */
   .tea-stand {
     transform: scale(0.7);
     right: 50px;
   }
 }
 
-/* line 494, style.scss */
+/* line 493, style.scss */
 #myModal {
   background-color: rgba(251, 142, 148, 0.7);
 }
-/* line 498, style.scss */
+/* line 497, style.scss */
 #myModal .modal-content {
   width: 95%;
   margin: auto;
 }
-/* line 507, style.scss */
+/* line 506, style.scss */
 #myModal .modal-content h1 {
   font-size: 30px;
 }
-/* line 511, style.scss */
+/* line 510, style.scss */
 #myModal .modal-content .modal-stand {
   position: absolute;
   margin-top: -100px;
   margin-left: -75px;
 }
 @media (max-width: 770px) {
-  /* line 511, style.scss */
+  /* line 510, style.scss */
   #myModal .modal-content .modal-stand {
     transform: scale(0.6);
     left: 5%;
   }
 }
 
-/* line 525, style.scss */
+/* line 524, style.scss */
 .deliver-farm-fresh {
   max-height: 600px;
   padding: 65px 0 90px 0;
   text-align: center;
 }
-/* line 531, style.scss */
+/* line 530, style.scss */
 .deliver-farm-fresh img {
   margin: auto;
   padding: 0 10px 20px 10px;
 }
-/* line 536, style.scss */
+/* line 535, style.scss */
 .deliver-farm-fresh h3 {
   font-size: 24px;
   padding: 10px;
@@ -545,7 +538,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 545, style.scss */
+/* line 544, style.scss */
 .deliver-farm-fresh p {
   font-size: 13px;
   padding: 10px;
@@ -553,7 +546,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 553, style.scss */
+/* line 552, style.scss */
 .deliver-farm-fresh button {
   font-size: 14px;
   font-family: "brandon-grotesque",sans-serif;
@@ -567,27 +560,27 @@ footer .copyright p {
   z-index: 1;
 }
 @media (max-width: 500px) {
-  /* line 553, style.scss */
+  /* line 552, style.scss */
   .deliver-farm-fresh button {
     width: 90%;
   }
 }
-/* line 569, style.scss */
+/* line 568, style.scss */
 .deliver-farm-fresh button:hover {
   background-color: white;
   border: solid black 1px;
 }
 
-/* line 576, style.scss */
+/* line 575, style.scss */
 .service {
   position: relative;
 }
-/* line 580, style.scss */
+/* line 579, style.scss */
 .service img {
   width: 100%;
   min-height: 300px;
 }
-/* line 585, style.scss */
+/* line 584, style.scss */
 .service .description {
   position: absolute;
   width: 100%;
@@ -595,7 +588,7 @@ footer .copyright p {
   text-align: center;
   top: 40%;
 }
-/* line 593, style.scss */
+/* line 592, style.scss */
 .service .description h1 {
   font-size: 48px;
   font-family: "brandon-grotesque",sans-serif;
@@ -605,7 +598,7 @@ footer .copyright p {
   margin-top: 0;
   z-index: 1;
 }
-/* line 603, style.scss */
+/* line 602, style.scss */
 .service .description p {
   font-size: 14px;
   font-family: "kozuka-gothic-pr6n";
@@ -613,18 +606,18 @@ footer .copyright p {
   z-index: 1;
 }
 
-/* line 612, style.scss */
+/* line 611, style.scss */
 .kitchen {
   padding: 100px 5% 0 5%;
   min-height: 660px;
 }
 @media (max-width: 770px) {
-  /* line 612, style.scss */
+  /* line 611, style.scss */
   .kitchen {
     padding: 10px 5% 20px 0;
   }
 }
-/* line 622, style.scss */
+/* line 621, style.scss */
 .kitchen .up {
   position: absolute;
   margin-top: -200px;
@@ -632,14 +625,14 @@ footer .copyright p {
   max-width: 50%;
 }
 @media (max-width: 770px) {
-  /* line 622, style.scss */
+  /* line 621, style.scss */
   .kitchen .up {
     left: 5%;
     margin-top: -50px;
     max-width: 40%;
   }
 }
-/* line 635, style.scss */
+/* line 634, style.scss */
 .kitchen .down {
   max-width: 50%;
   position: absolute;
@@ -647,19 +640,19 @@ footer .copyright p {
   left: 5%;
 }
 @media (max-width: 770px) {
-  /* line 635, style.scss */
+  /* line 634, style.scss */
   .kitchen .down {
     left: 0%;
     margin-top: 120px;
     max-width: 40%;
   }
 }
-/* line 649, style.scss */
+/* line 648, style.scss */
 .kitchen .description {
   width: 50%;
   float: right;
 }
-/* line 654, style.scss */
+/* line 653, style.scss */
 .kitchen .description h1 {
   font-size: 48px;
   padding: 10px;
@@ -669,7 +662,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 664, style.scss */
+/* line 663, style.scss */
 .kitchen .description h3 {
   font-size: 16px;
   padding: 10px;
@@ -678,7 +671,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 673, style.scss */
+/* line 672, style.scss */
 .kitchen .description p {
   font-size: 13px;
   padding: 10px;
@@ -686,7 +679,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 681, style.scss */
+/* line 680, style.scss */
 .kitchen .description button {
   font-size: 14px;
   font-family: "brandon-grotesque",sans-serif;
@@ -701,29 +694,29 @@ footer .copyright p {
   z-index: 1;
 }
 @media (max-width: 500px) {
-  /* line 681, style.scss */
+  /* line 680, style.scss */
   .kitchen .description button {
     width: 170%;
   }
 }
 
-/* line 701, style.scss */
+/* line 700, style.scss */
 .cooking {
   background-color: #fff6f6;
   padding: 100px 5% 0 5%;
   min-height: 580px;
 }
 @media (max-width: 770px) {
-  /* line 701, style.scss */
+  /* line 700, style.scss */
   .cooking {
     padding: 10px 0 0 5%;
   }
 }
-/* line 711, style.scss */
+/* line 710, style.scss */
 .cooking .description {
   width: 50%;
 }
-/* line 715, style.scss */
+/* line 714, style.scss */
 .cooking .description h1 {
   font-size: 48px;
   padding: 10px;
@@ -733,7 +726,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 725, style.scss */
+/* line 724, style.scss */
 .cooking .description h3 {
   font-size: 16px;
   padding: 10px;
@@ -742,7 +735,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 734, style.scss */
+/* line 733, style.scss */
 .cooking .description p {
   font-size: 13px;
   padding: 10px;
@@ -750,7 +743,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 742, style.scss */
+/* line 741, style.scss */
 .cooking .description button {
   font-size: 14px;
   font-family: "brandon-grotesque",sans-serif;
@@ -765,12 +758,12 @@ footer .copyright p {
   z-index: 1;
 }
 @media (max-width: 500px) {
-  /* line 742, style.scss */
+  /* line 741, style.scss */
   .cooking .description button {
     width: 170%;
   }
 }
-/* line 761, style.scss */
+/* line 760, style.scss */
 .cooking img {
   position: absolute;
   max-width: 50%;
@@ -778,7 +771,7 @@ footer .copyright p {
   right: 10%;
 }
 @media (max-width: 770px) {
-  /* line 761, style.scss */
+  /* line 760, style.scss */
   .cooking img {
     right: 0%;
     padding-left: 20px;
@@ -786,23 +779,23 @@ footer .copyright p {
   }
 }
 
-/* line 776, style.scss */
+/* line 775, style.scss */
 .shop {
   padding: 100px 5% 0 5%;
   min-height: 620px;
 }
 @media (max-width: 770px) {
-  /* line 776, style.scss */
+  /* line 775, style.scss */
   .shop {
     padding: 10px 5% 20px 0;
   }
 }
-/* line 785, style.scss */
+/* line 784, style.scss */
 .shop .description {
   width: 50%;
   float: right;
 }
-/* line 790, style.scss */
+/* line 789, style.scss */
 .shop .description h1 {
   font-size: 48px;
   padding: 10px;
@@ -812,7 +805,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 800, style.scss */
+/* line 799, style.scss */
 .shop .description h3 {
   font-size: 16px;
   padding: 10px;
@@ -821,7 +814,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 809, style.scss */
+/* line 808, style.scss */
 .shop .description p {
   font-size: 13px;
   padding: 10px;
@@ -829,7 +822,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 817, style.scss */
+/* line 816, style.scss */
 .shop .description button {
   font-size: 14px;
   font-family: "brandon-grotesque",sans-serif;
@@ -844,12 +837,12 @@ footer .copyright p {
   z-index: 1;
 }
 @media (max-width: 500px) {
-  /* line 817, style.scss */
+  /* line 816, style.scss */
   .shop .description button {
     width: 170%;
   }
 }
-/* line 836, style.scss */
+/* line 835, style.scss */
 .shop img {
   position: absolute;
   max-width: 50%;
@@ -857,7 +850,7 @@ footer .copyright p {
   left: 10%;
 }
 @media (max-width: 770px) {
-  /* line 836, style.scss */
+  /* line 835, style.scss */
   .shop img {
     left: 0%;
     padding-right: 20px;
@@ -865,23 +858,23 @@ footer .copyright p {
   }
 }
 
-/* line 850, style.scss */
+/* line 849, style.scss */
 .antenna-shop {
   background-color: #f8f6ef;
   padding: 100px 5% 0 5%;
   min-height: 560px;
 }
 @media (max-width: 770px) {
-  /* line 850, style.scss */
+  /* line 849, style.scss */
   .antenna-shop {
     padding: 10px 0 0 5%;
   }
 }
-/* line 860, style.scss */
+/* line 859, style.scss */
 .antenna-shop .description {
   width: 50%;
 }
-/* line 864, style.scss */
+/* line 863, style.scss */
 .antenna-shop .description h1 {
   font-size: 48px;
   padding: 10px;
@@ -891,7 +884,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 874, style.scss */
+/* line 873, style.scss */
 .antenna-shop .description h3 {
   font-size: 16px;
   padding: 10px;
@@ -900,7 +893,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 883, style.scss */
+/* line 882, style.scss */
 .antenna-shop .description p {
   font-size: 13px;
   padding: 10px;
@@ -908,7 +901,7 @@ footer .copyright p {
   position: relative;
   z-index: 1;
 }
-/* line 891, style.scss */
+/* line 890, style.scss */
 .antenna-shop .description button {
   font-size: 14px;
   font-family: "brandon-grotesque",sans-serif;
@@ -923,12 +916,12 @@ footer .copyright p {
   z-index: 1;
 }
 @media (max-width: 500px) {
-  /* line 891, style.scss */
+  /* line 890, style.scss */
   .antenna-shop .description button {
     width: 170%;
   }
 }
-/* line 910, style.scss */
+/* line 909, style.scss */
 .antenna-shop img {
   position: absolute;
   max-width: 50%;
@@ -936,39 +929,39 @@ footer .copyright p {
   right: 10%;
 }
 @media (max-width: 770px) {
-  /* line 910, style.scss */
+  /* line 909, style.scss */
   .antenna-shop img {
     right: 0%;
     padding-left: 20px;
   }
 }
 
-/* line 923, style.scss */
+/* line 922, style.scss */
 #news {
   min-height: 650px;
   margin-left: 10%;
   margin-right: 10%;
 }
 @media (max-width: 1200px) {
-  /* line 923, style.scss */
+  /* line 922, style.scss */
   #news {
     font-size: 10px;
   }
 }
 @media (max-width: 770px) {
-  /* line 923, style.scss */
+  /* line 922, style.scss */
   #news {
     font-size: 14px;
   }
 }
 @media (max-width: 500px) {
-  /* line 923, style.scss */
+  /* line 922, style.scss */
   #news {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
-/* line 942, style.scss */
+/* line 941, style.scss */
 #news h3 {
   border-bottom: solid #c0c0c0 1px;
   text-align: center;
@@ -978,59 +971,59 @@ footer .copyright p {
   padding: 80px 0 30px 0;
   margin-top: 0px;
 }
-/* line 953, style.scss */
+/* line 952, style.scss */
 #news #list-posts {
   list-style: none;
   padding-top: 10px;
   padding-left: 0px;
 }
-/* line 960, style.scss */
+/* line 959, style.scss */
 #news #news-post {
   padding-top: 0px;
 }
-/* line 964, style.scss */
+/* line 963, style.scss */
 #news #news-post a {
   color: black;
 }
-/* line 968, style.scss */
+/* line 967, style.scss */
 #news #news-post .col-sm-3 {
   padding-top: 20px;
   font-size: 12px;
   font-family: "brandon-grotesque",sans-serif;
 }
-/* line 974, style.scss */
+/* line 973, style.scss */
 #news #news-post .col-sm-9 {
   padding-top: 20px;
   font-size: 13px;
   font-family: µ©©Òé┤ÒéÀÒââÒé»õ¢ô, 'Yu Gothic', YuGothic, 'ÒâÆÒâ®Òé«ÒâÄÞºÆÒé┤ Pro W3', 'Hiragino Kaku Gothic Pro', ÒâíÒéñÒâ¬Òé¬, Meiryo, '´╝¡´╝│ ´╝░Òé┤ÒéÀÒââÒé»', 'MS PGothic', sans-serif;
 }
-/* line 981, style.scss */
+/* line 980, style.scss */
 #news #calendar {
   padding-bottom: 100px;
 }
-/* line 985, style.scss */
+/* line 984, style.scss */
 #news #calendar .new-calendar {
   padding-top: 20px;
   width: 100%;
 }
-/* line 990, style.scss */
+/* line 989, style.scss */
 #news #calendar .new-calendar .calendar-archives.calendrier, #news #calendar .new-calendar .calendar-navigation {
   background-image: none;
 }
-/* line 994, style.scss */
+/* line 993, style.scss */
 #news #calendar .new-calendar .week-row span {
   padding: 10px 0;
 }
-/* line 998, style.scss */
+/* line 997, style.scss */
 #news #calendar .new-calendar .calendar-archives.calendrier {
   box-shadow: none;
   border-radius: 0;
 }
-/* line 1003, style.scss */
+/* line 1002, style.scss */
 #news #calendar .new-calendar .calendar-archives.calendrier .day.has-posts {
   background: none;
 }
-/* line 1009, style.scss */
+/* line 1008, style.scss */
 #news #calendar .new-calendar .archives-years {
   border-left: none;
   border-right: none;
@@ -1040,19 +1033,19 @@ footer .copyright p {
   font-size: 12px;
   font-family: "brandon-grotesque",sans-serif;
 }
-/* line 1020, style.scss */
+/* line 1019, style.scss */
 #news #calendar .new-calendar .arrow-down {
   display: none;
 }
-/* line 1025, style.scss */
+/* line 1024, style.scss */
 #news #calendar .new-calendar .calendar-navigation {
   text-shadow: none;
 }
-/* line 1029, style.scss */
+/* line 1028, style.scss */
 #news #calendar .new-calendar .calendar-navigation .months {
   background-color: white;
 }
-/* line 1034, style.scss */
+/* line 1033, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.prev-year, #news #calendar .new-calendar .calendar-navigation a.next-year {
   position: absolute;
   margin-top: 380px;
@@ -1065,7 +1058,7 @@ footer .copyright p {
   font-size: 12px;
   font-family: "myriad-pro";
 }
-/* line 1047, style.scss */
+/* line 1046, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.next-year {
   margin-left: 0;
   border: none;
@@ -1073,13 +1066,13 @@ footer .copyright p {
   position: absolute;
   width: 40px;
 }
-/* line 1055, style.scss */
+/* line 1054, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.prev-year {
   margin-left: 0;
   border: none;
   box-shadow: none;
 }
-/* line 1061, style.scss */
+/* line 1060, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.title {
   color: black;
   background-color: white;
@@ -1091,64 +1084,64 @@ footer .copyright p {
   font-family: "myriad-pro";
   word-spacing: 20px;
 }
-/* line 1072, style.scss */
+/* line 1071, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.title span {
   font-size: 24px;
 }
-/* line 1077, style.scss */
+/* line 1076, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.title i {
   font-size: 72px;
   position: absolute;
   left: 10px;
 }
-/* line 1084, style.scss */
+/* line 1083, style.scss */
 #news #calendar .new-calendar .calendar-navigation a.title:before {
   color: red;
 }
-/* line 1090, style.scss */
+/* line 1089, style.scss */
 #news #calendar .new-calendar .weekdays span {
   color: black;
   font-size: 12px;
   font-family: "myriad-pro";
 }
-/* line 1095, style.scss */
+/* line 1094, style.scss */
 #news #calendar .new-calendar .weekdays span:nth-child(7n+0) {
   color: #2780ae;
 }
-/* line 1099, style.scss */
+/* line 1098, style.scss */
 #news #calendar .new-calendar .weekdays span:nth-child(1) {
   color: #e44e4e;
 }
-/* line 1105, style.scss */
+/* line 1104, style.scss */
 #news #calendar .new-calendar .week-row {
   border: none;
 }
-/* line 1109, style.scss */
+/* line 1108, style.scss */
 #news #calendar .new-calendar .week-row .day {
   border: none;
 }
-/* line 1113, style.scss */
+/* line 1112, style.scss */
 #news #calendar .new-calendar .week-row .day span {
   background-color: white;
 }
-/* line 1119, style.scss */
+/* line 1118, style.scss */
 #news #calendar .new-calendar .week-row span {
   color: black;
 }
-/* line 1123, style.scss */
+/* line 1122, style.scss */
 #news #calendar .new-calendar .week-row span:last-child {
   color: #2780ae;
 }
-/* line 1127, style.scss */
+/* line 1126, style.scss */
 #news #calendar .new-calendar .week-row span:nth-child(1) {
   color: #e44e4e;
 }
-/* line 1134, style.scss */
+/* line 1133, style.scss */
 #news #calendar .new-calendar .week-row .has-posts a {
   position: relative;
   background: none;
 }
-/* line 1138, style.scss */
+/* line 1137, style.scss */
 #news #calendar .new-calendar .week-row .has-posts a:before {
   content: '';
   display: block;
@@ -1164,11 +1157,11 @@ footer .copyright p {
   border-radius: 50%;
 }
 
-/* line 1161, style.scss */
+/* line 1160, style.scss */
 .company-information {
   position: relative;
 }
-/* line 1165, style.scss */
+/* line 1164, style.scss */
 .company-information .description {
   position: absolute;
   width: 100%;
@@ -1179,18 +1172,18 @@ footer .copyright p {
   z-index: 1;
 }
 @media (max-width: 650px) {
-  /* line 1165, style.scss */
+  /* line 1164, style.scss */
   .company-information .description {
     font-size: 0.6em;
   }
 }
 @media (max-width: 1000px) {
-  /* line 1165, style.scss */
+  /* line 1164, style.scss */
   .company-information .description {
     font-size: 0.7em;
   }
 }
-/* line 1183, style.scss */
+/* line 1182, style.scss */
 .company-information .description h1 {
   font-size: 48px;
   padding: 10px;
@@ -1200,18 +1193,18 @@ footer .copyright p {
   margin-top: 0;
 }
 @media (max-width: 500px) {
-  /* line 1183, style.scss */
+  /* line 1182, style.scss */
   .company-information .description h1 {
     font-size: 35px;
   }
 }
-/* line 1196, style.scss */
+/* line 1195, style.scss */
 .company-information .description p {
   font-size: 14px;
   padding: 0px;
   font-family: "kozuka-gothic-pr6n";
 }
-/* line 1202, style.scss */
+/* line 1201, style.scss */
 .company-information .description button {
   font-size: 14px;
   font-family: "brandon-grotesque",sans-serif;
@@ -1224,13 +1217,13 @@ footer .copyright p {
   padding: 10px 30px 10px 30px;
 }
 @media (max-width: 500px) {
-  /* line 1202, style.scss */
+  /* line 1201, style.scss */
   .company-information .description button {
     padding: 10px 0 10px 0;
     width: 90%;
   }
 }
-/* line 1220, style.scss */
+/* line 1219, style.scss */
 .company-information img {
   position: relative;
   display: block;
@@ -1238,42 +1231,37 @@ footer .copyright p {
   min-height: 250px;
 }
 
-/* line 1228, style.scss */
+/* line 1227, style.scss */
 .delicious-posts {
   text-align: center;
 }
-/* line 1232, style.scss */
+/* line 1231, style.scss */
 .delicious-posts .delicious-title {
   margin-bottom: 40px;
   margin-top: 40px;
 }
-/* line 1241, style.scss */
+/* line 1240, style.scss */
 .delicious-posts .social-content #delicious-image img {
   width: 100%;
   height: 100%;
 }
-/* line 1247, style.scss */
+/* line 1246, style.scss */
 .delicious-posts .social-content .col-xs-6 {
   padding: 0px;
 }
-/* line 1252, style.scss */
+/* line 1251, style.scss */
 .delicious-posts .social-content .col-xs-6 ul {
   list-style: none;
   margin: auto;
   text-align: center;
   padding: 0;
 }
-/* line 1259, style.scss */
+/* line 1258, style.scss */
 .delicious-posts .social-content .col-xs-6 .post-box {
   margin: 10px;
+  padding-bottom: 10px;
   border: solid #ececec 1px;
   list-style: none;
-}
-@media (max-width: 770px) {
-  /* line 1259, style.scss */
-  .delicious-posts .social-content .col-xs-6 .post-box {
-    height: 400px;
-  }
 }
 /* line 1271, style.scss */
 .delicious-posts .social-content .col-xs-6 .post-box .date-box {
